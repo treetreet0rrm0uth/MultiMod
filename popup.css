@@ -9,14 +9,15 @@
 html, body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
-    min-height: 180px;
-    width: 384px;
+    min-height: 540px;
+    width: 300px;
 }
 h1 {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 22px;
+    font-size: 50px;
     font-weight: 400;
     color: #ffffff;
+    text-align: center;
 }
 a:link {
     color: #ffffff;
@@ -32,17 +33,24 @@ a:active {
     color: #00ccff;
 }
 img {
-    width: 50px;
+    width: 90px;
 }
 .modal-header {
     align-items: center;
-    border-bottom: 0.5px solid #bfbfbf;
 }
 .modal-icons {
-    border-top: 0.5px solid #bfbfbf;
-    height: 50px;
-    width: 100%;
+    border-bottom: 0.5px solid #bfbfbf;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
 }
 .modal-content {
+    border-top: 0.5px solid #bfbfbf;
     color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+}
+.flex-container {
+    display: flex;
 }

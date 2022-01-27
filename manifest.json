@@ -1,6 +1,6 @@
 {
     "name": "MultiMod",
-    "description": "MultiMod V1",
+    "description": "MultiMod V0.1",
     "version": "0.1",
     "manifest_version": 3,
     "icons": {"128": "icon.png"},
