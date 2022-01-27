@@ -1,0 +1,15 @@
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    min-height: 180px;
+    padding: 0px;
+    width: 384px;
+}
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0px;
+    color: #0000;
+}
