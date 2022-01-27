@@ -1,15 +1,48 @@
+* {
+    margin:0;
+    padding:0;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 html, body {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 14px;
-    margin: 0px;
+    font-size: 10px;
     min-height: 180px;
-    padding: 0px;
     width: 384px;
 }
 h1 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 22px;
     font-weight: 400;
-    margin: 0px;
-    color: #0000;
+    color: #ffffff;
+}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover {
+    color: #bfbfbf;
+}
+a:active {
+    color: #00ccff;
+}
+img {
+    width: 50px;
+}
+.modal-header {
+    align-items: center;
+    border-bottom: 0.5px solid #bfbfbf;
+}
+.modal-icons {
+    border-top: 0.5px solid #bfbfbf;
+    height: 50px;
+    width: 100%;
+}
+.modal-content {
+    color: #ffffff;
 }
