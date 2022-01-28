@@ -44,7 +44,7 @@ img {
     text-align: center;
     font-size: 25px;
 }
-.modal-content {
+.modal-content, .schoology-content, .general-content {
     border-top: 0.5px solid #bfbfbf;
     color: #ffffff;
     text-align: center;
@@ -54,7 +54,7 @@ img {
 .flex-container {
     display: flex;
 }
-button{
+button {
     font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
     background-color: #ffffff;
@@ -66,12 +66,12 @@ button{
     cursor: pointer;
     width: 100%;
   }
-  button:hover{
+  button:hover {
     background-color:#bfbfbf;
 }
-button:focus{
+button:focus {
     background-color:#00ccff;
 }
-a.button{
+a.button {
   color: white;
 }
