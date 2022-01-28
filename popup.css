@@ -54,3 +54,24 @@ img {
 .flex-container {
     display: flex;
 }
+button{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover{
+    background-color:#bfbfbf;
+}
+button:focus{
+    background-color:#00ccff;
+}
+a.button{
+  color: white;
+}
