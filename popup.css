@@ -78,3 +78,10 @@ a.button {
 .logo_blooket {
     font-size: 35px;
 }
+.about {
+    border-top: 0.5px solid #bfbfbf;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+}
