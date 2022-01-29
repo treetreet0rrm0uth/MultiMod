@@ -9,8 +9,8 @@
 html, body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
-    min-height: 100%;
     width: 300px;
+    max-height: 100%;
 }
 h1 {
     font-family: 'Titillium Web', sans-serif;
@@ -44,7 +44,7 @@ img {
     text-align: center;
     font-size: 25px;
 }
-.modal-content, .schoology-content, .general-content {
+.modal-content, .schoology-content, .general-content, .blooket-content {
     border-top: 0.5px solid #bfbfbf;
     color: #ffffff;
     text-align: center;
@@ -74,4 +74,7 @@ button:focus {
 }
 a.button {
   color: white;
+}
+.logo_blooket {
+    font-size: 35px;
 }
